@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>"HW6"</title>
+      <meta charset = "UTF-8">
+      <meta name = "author" content = "Gavin Valencia">
+      <link rel = "stylesheet" type = "text/css" href = "index.css">
+      <script src="index.js"></script>
+   </head>
+   <body>
+      <h1>Restaurant Bill Calculator</h1>
+      <label for="tax">Tax percent:</label>
+      <input type="number" id="tax" step=".01" min="0" max="100" class="input">%<br>
+
+      <label for="price">Price from the menu:</label>
+      <input type="number" id="price" step=".01" min="0" max="1000" class="input"><br>
+
+      <label for="tip">Tip percent:</label>
+      <input type="number" id="tip" step="1" min="0" max="200" class="input">%<br><br>
+
+      <input type="button" value="Calculate Value" onclick = "calculateBill()">
+
+      <br>
+
+      <p id="priceTag"></p>
+      <p id="taxTag"></p>
+      <p id="tipTag"></p>
+      <p id="total"></p>
+   </body>

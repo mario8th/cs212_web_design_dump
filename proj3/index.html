@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Project 3</title>
+      <meta name = "author" content = "Gavin Valencia">
+      <script src="index.js"></script>
+   </head>
+   <body onload="validateForm()">
+      <div id="error-display">
+         <div id="required-field-error"> </div>
+         <div id="password-mistmatch-error"> </div>
+         <div id="unmet-password-constraints-error"> </div>
+         <div id="invalid-email-error"> </div>
+      <div>
+      <form id="project-form">
+         <label for="username">Username *:</label>
+         <input type="text" id="username" onblur="validateForm()"><br>
+
+         <label for="name">Name *:</label>
+         <input type="text" id="name" onblur="validateForm()"><br>
+
+         <label for="phone-number">Phone Number:</label>
+         <input type="text" id="phone-number" onblur="validateForm()"><br>
+
+         <label for="email">Email *:</label>
+         <input type="email" id="email" onblur="validateForm()"><br>
+
+         <label for="password">Password *:</label>
+         <input type="password" id="password" onblur="validateForm()"><br>
+
+         <label for="password-confirmation">Confirm Password *:</label>
+         <input type="password" id="password-confirmation" onblur="validateForm()"><br>
+
+         <input type="button" value="Submit" id="submit-btn" onclick="submitClick()">
+      </form>
+   </body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,11 @@
+input:valid:focus.input {
+   background-color: lightgreen;
+}
+
+input:invalid:focus.input {
+   background-color: #ffb2b2
+}
+
+input {
+   margin-top: 10px;
+}

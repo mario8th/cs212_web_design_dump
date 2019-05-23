@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>"HW10"</title>
+   <meta charset = "UTF-8">
+   <meta name = "author" content = "Gavin Valencia">
+   <link rel = "stylesheet" type = "text/css" href = "index.css">
+   <script src="index.js"></script>
+</head>
+<body>
+   <h1>Root Beer Float Maker</h1>
+<div id="main_window">
+   <img src="root-beer-img.jpg" alt="Root Beer Image">
+   <div name="checkbox">
+   <p>Ice Creams</p>
+      <input type="checkbox" name="vanilla" value="vanilla" id="vanilla"> Vanilla<br>
+      <input type="checkbox" name="chocolate" value="chocolate" id="chocolate"> Chocolate<br>
+      <input type="checkbox" name="coffee" value="coffee" id="coffee"> Coffee<br>
+   </div>
+   <div name="radio">
+      <p>Root Beers</p>
+      <input type="radio" name="rootBeer" value="Barq's" id="barq"> Barq's<br>
+      <input type="radio" name="rootBeer" value="A&W" id="aw"> A&W<br>
+      <input type="radio" name="rootBeer" value="Dad's" id="dad"> Dad's<br>
+      <input type="radio" name="rootBeer" value="IBC" id="ibc"> IBC<br>
+   </div>
+   <input type="button" name="submit" value=" I'm ready to make my float!" onclick="doRootBeerStuff()">
+   <div id="recipe_outer">
+      <div id="recipe_inner">
+      </div>
+   </div>
+</div>
+</body>

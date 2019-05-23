@@ -1,0 +1,27 @@
+/* Gavin Valencia CS212-002 */
+/* This assignment was to create a page for */
+/* a celebrity (I know my celebrity isn't real) */
+/* This file modifies how the page is displayed */
+body {
+background-color: blue;
+}
+#req4 {
+background-color: red;
+}
+.req5 {
+color: green;
+background-color: #fb42ff;
+}
+#req4, .req5 {
+font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif
+}
+li {
+list-style-type: circle;
+display:inline-block;
+}
+img {
+width: 400px;
+height: 240px;
+float: right;
+padding-top: 150px
+}

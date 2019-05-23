@@ -1,0 +1,30 @@
+#name {
+   font-weight: bold;
+   text-align: center;
+   font-size: 2em;
+}
+
+body {
+   background-image: url("buff_riku.jpg");
+   background-size: 116px 150px;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+p:first-letter {
+  font-size: 1.5em;
+}
+
+li {
+   color: blue;
+}
+
+li:nth-child(odd) {
+   color: red;
+}
